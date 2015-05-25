@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.2)
+add_executable(redmart main.cpp)
+target_compile_features(redmart PRIVATE cxx_range_for cxx_aggregate_default_initializers)
